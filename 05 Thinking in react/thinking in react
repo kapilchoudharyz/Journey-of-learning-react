@@ -1,0 +1,33 @@
+The 'Thinking in React' Process.
+
+    1.Break down the desired UI into multiple components and establish the component tree. Think about reusability and composibility.
+    2.Build a static version in React(without states and any interactivity).
+    3.Think about state:
+        1.When to use state.
+        2.Types of state (Local vs Global).
+        3.Where to place each piece of state.
+    4.Data flow:
+        1.One-way data flow.
+        2.Child-to-parent communication.
+        3.Accessing global state.
+
+State management.
+
+Types of state. Local vs Global state.
+    Local state:->
+        State that is needed in one component or a few component.We can define local state using the useState.
+
+    Global State::-> State that can be needed in multiple components and it accessible to every component in the entire app(It is shared among all the components.). We can define global state using react context api or external global state management library like redux.
+
+When to create a state?
+    1.will data change over time if no then use regular const variable.
+    2. If data will change over time then see if the data can be computed from existing state/props if yes then derive state.
+    3.If data can not be computed from existing state and then place a new piece of state in component and always start with local state.
+
+Where to create a state?
+    1.If the state is used by the current component then leave in the component.
+    2.If the state is also used by the child component then simply pass the state to the child component via props.
+    3.If the state is used by the sibling components then lift the state to first common parent.
+
+
+Derived State:- The state that is computed from an existing piece of state or prop.

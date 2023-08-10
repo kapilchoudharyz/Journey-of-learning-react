@@ -1,0 +1,11 @@
+.nav {
+    background: orangered;
+}
+
+.nav ul {
+    color: blue;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
