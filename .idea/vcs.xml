@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01 Pizza-Menu/pizza-menu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01 Pizza-Menu/profile-card" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/02 Step/coding-challenge-date-counter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/02 Step/steps" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/03 Travel-list/travel-list" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/04 Flash-cards/flash-cards" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/05 Thinking in react/accordion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/05 Thinking in react/tip-calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/06 Eat-n-split/eat-n-split" vcs="Git" />
+  </component>
+</project>
