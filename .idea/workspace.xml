@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01811065-684d-43a9-9072-2cde7db5ab52" name="Changes" comment="Commit dated aug 11">
+    <list default="true" id="01811065-684d-43a9-9072-2cde7db5ab52" name="Changes" comment="Commit dated aug 21/10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Pizza-Menu/pizza-menu" beforeDir="false" afterPath="$PROJECT_DIR$/01 Pizza-Menu/pizza-menu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Pizza-Menu/pizza-menu/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/01 Pizza-Menu/pizza-menu/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-Use popcorn/usepopcorn/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/07-Use popcorn/usepopcorn/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-Use popcorn/usepopcorn/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/07-Use popcorn/usepopcorn/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-The-advanced-useReducer-hook/React-Quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/09-The-advanced-useReducer-hook/React-Quiz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-The-advanced-useReducer-hook/React-Quiz/src/Components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/09-The-advanced-useReducer-hook/React-Quiz/src/Components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-The-advanced-useReducer-hook/React-Quiz/src/Components/Main/Question.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/09-The-advanced-useReducer-hook/React-Quiz/src/Components/Main/Question.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-The-advanced-useReducer-hook/React-Quiz/src/assets/questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/09-The-advanced-useReducer-hook/React-Quiz/public/questions.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/01 Pizza-Menu/profile-card" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -70,7 +78,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/kapil/Web Development/udemy/React by jonas/My learning&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -82,6 +90,32 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/07-Use popcorn/usepopcorn/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -98,6 +132,9 @@
       <workItem from="1691676050758" duration="177000" />
       <workItem from="1691744766438" duration="1295000" />
       <workItem from="1691852666720" duration="122000" />
+      <workItem from="1697897699148" duration="510000" />
+      <workItem from="1697898225286" duration="2590000" />
+      <workItem from="1697944368437" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="Inital commit">
       <option name="closed" value="true" />
@@ -155,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691745418767</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit dated aug 21/10">
+      <option name="closed" value="true" />
+      <created>1697897784055</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697897784055</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +221,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Inital commit" />
     <MESSAGE value="Commit dated aug 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit dated aug 11" />
+    <MESSAGE value="Commit dated aug 21/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit dated aug 21/10" />
   </component>
 </project>

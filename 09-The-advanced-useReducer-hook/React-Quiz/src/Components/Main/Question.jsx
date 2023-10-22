@@ -1,6 +1,7 @@
 import Options from "./Options.jsx";
 
 function Question({ question, dispatch, answerSelected, answer }) {
+  console.log(question);
   return (
     <div>
       <h4>{question.question}</h4>

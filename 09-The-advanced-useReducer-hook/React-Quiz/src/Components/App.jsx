@@ -5,6 +5,7 @@ import Progress from "./Main/Progress.jsx";
 import { useEffect, useReducer } from "react";
 import Loader from "./Main/Loader.jsx";
 import Question from "./Main/Question.jsx";
+import question from "../../public/questions.json";
 
 const initialState = {
   questions: [],
@@ -19,11 +20,17 @@ const reducer = function (state, action) {
     case "dataReceived":
       return { ...state, status: "ready", questions: action.payload };
     case "start":
-      return { ...state, status: "active" };
+      return { ...state, status: "active", index: 0 };
     case "next":
       return { ...state, index: state.index + 1, answer: null };
     case "newAnswer":
       return { ...state, answer: action.payload };
+    case "result":
+      return {
+        ...state,
+        questions: action.payload,
+        status: "ready",
+      };
   }
 };
 
@@ -32,8 +39,8 @@ function App() {
     useReducer(reducer, initialState);
   useEffect(function () {
     fetch("http://localhost:3000/questions")
-      .then((res) => res.json())
-      .then((data) => dispatch({ type: "dataReceived", payload: data }))
+      // eslint-disable-next-line no-unused-vars
+      .then((data) => dispatch({ type: "dataReceived", payload: question }))
       .catch((err) => console.log(err.message));
   }, []);
   console.log(questions);
@@ -46,12 +53,12 @@ function App() {
         {status === "active" && (
           <>
             <Progress
-              question={questions[index]}
+              question={question.questions[index]}
               index={index}
               answer={answer}
             />
             <Question
-              question={questions[index]}
+              question={question.questions[index]}
               dispatch={dispatch}
               index={index}
               answerSelected={answerSelected}

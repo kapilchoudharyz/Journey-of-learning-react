@@ -5,24 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33aa4b34-c730-42ce-865a-bbad644fb44d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Main/Loader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Main/Options.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Main/Progress.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Main/Question.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Main/StartScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../01 Pizza-Menu/pizza-menu" beforeDir="false" afterPath="$PROJECT_DIR$/../../01 Pizza-Menu/pizza-menu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01 Pizza-Menu/profile-card" beforeDir="false" afterPath="$PROJECT_DIR$/../../01 Pizza-Menu/profile-card" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../02 Step/coding-challenge-date-counter" beforeDir="false" afterPath="$PROJECT_DIR$/../../02 Step/coding-challenge-date-counter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../02 Step/steps" beforeDir="false" afterPath="$PROJECT_DIR$/../../02 Step/steps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03 Travel-list/travel-list" beforeDir="false" afterPath="$PROJECT_DIR$/../../03 Travel-list/travel-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../04 Flash-cards/flash-cards" beforeDir="false" afterPath="$PROJECT_DIR$/../../04 Flash-cards/flash-cards" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05 Thinking in react/accordion" beforeDir="false" afterPath="$PROJECT_DIR$/../../05 Thinking in react/accordion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05 Thinking in react/tip-calculator" beforeDir="false" afterPath="$PROJECT_DIR$/../../05 Thinking in react/tip-calculator" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../06 Eat-n-split/eat-n-split" beforeDir="false" afterPath="$PROJECT_DIR$/../../06 Eat-n-split/eat-n-split" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../07-Use popcorn/textexpender" beforeDir="false" afterPath="$PROJECT_DIR$/../../07-Use popcorn/textexpender" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../07-Use popcorn/usepopcorn" beforeDir="false" afterPath="$PROJECT_DIR$/../../07-Use popcorn/usepopcorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07-Use popcorn/usepopcorn/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../07-Use popcorn/usepopcorn/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07-Use popcorn/usepopcorn/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../07-Use popcorn/usepopcorn/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Main/Question.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Main/Question.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/questions.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +39,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/kapil/Web Development/udemy/React by jonas/My learning/09-The-advanced-useReducer-hook/React-Quiz&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -72,8 +62,26 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/Components" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,6 +95,8 @@
       <workItem from="1691381015524" duration="3520000" />
       <workItem from="1691415335239" duration="4000" />
       <workItem from="1691420266990" duration="5132000" />
+      <workItem from="1697905067626" duration="1870000" />
+      <workItem from="1697944358606" duration="205000" />
     </task>
     <servers />
   </component>
